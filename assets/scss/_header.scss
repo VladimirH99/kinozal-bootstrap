@@ -1,6 +1,10 @@
 @use "presets" as *;
 @use "mixins" as *;
 
+.header{
+    margin-bottom: $gap-xl;
+}
+
 .header-logo{
     padding: 100px 0;
     text-align: center;
