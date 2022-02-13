@@ -64,11 +64,15 @@
         background-color: $color-accent;
         border: none;
         font-size: 1.25rem;
-        letter-spacing: 0.08em;
+        letter-spacing: 0.1em;
     }
 }
 .panel-body{
     border: 1px solid $color-gray;
     border-radius: 0 0 4px 4px;
+}
+
+.input-group-lg>.form-control{
+    font-size: 0.875rem;
 }
 
